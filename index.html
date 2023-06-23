@@ -9552,27 +9552,26 @@
       </article>
     </main>
     <script>
-        const header = document.querySelector("nav")
-        const headerbtn = document.querySelector("nav button")
+      const header = document.querySelector("nav");
+      const headerbtn = document.querySelector("nav button");
       document.addEventListener("scroll", function (e) {
-        console.log(window.scrollY)
+        console.log(window.scrollY);
         if (window.scrollY >= 400) {
-          header.classList.add('nav-switch')
-          headerbtn.classList.add("btn-switch")
+          header.classList.add("nav-switch");
+          headerbtn.classList.add("btn-switch");
         } else {
-            header.classList.remove('nav-switch')
-            headerbtn.classList.remove("btn-switch")
+          header.classList.remove("nav-switch");
+          headerbtn.classList.remove("btn-switch");
         }
       });
-      const aside = document.querySelector("aside")
+      const aside = document.querySelector("aside");
       document.addEventListener("scroll", function (e) {
-        if(window.scrollY >= 800) {
-            aside.classList.add("aside-fixed")
+        if (window.scrollY >= 800) {
+          aside.classList.add("aside-fixed");
         } else {
-            aside.classList.remove("aside-fixed")
+          aside.classList.remove("aside-fixed");
         }
-      })
-
+      });
     </script>
   </body>
 </html>
