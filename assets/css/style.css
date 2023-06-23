@@ -70,7 +70,8 @@ ul {
     border-bottom: 1px solid #191919;
     position: relative;
     width: 100%;
-    top: 9%;
+    top: 8%;
+    margin-bottom: 5%;
 }
 
 .title_container {
@@ -244,6 +245,11 @@ aside {
     margin: 2.5%;
 }
 
+.aside-fixed {
+    position: fixed;
+    top: 10%;
+    right: 0;
+}
 .type-list {
     display: flex;
     flex-wrap: wrap;

@@ -9564,6 +9564,15 @@
             headerbtn.classList.remove("btn-switch")
         }
       });
+      const aside = document.querySelector("aside")
+      document.addEventListener("scroll", function (e) {
+        if(window.scrollY >= 800) {
+            aside.classList.add("aside-fixed")
+        } else {
+            aside.classList.remove("aside-fixed")
+        }
+      })
+
     </script>
   </body>
 </html>
