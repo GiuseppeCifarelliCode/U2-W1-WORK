@@ -392,3 +392,68 @@ aside {
         width: auto;
     }
 }
+
+/* TABLET MEDIA QUERY < 1024PX */
+
+@media screen and (max-width: 1023px) {
+    nav ul {
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .hero {
+        margin-bottom: 10%;
+        top: 5%;
+    }
+
+    .title_container h2 {
+        font-size: 4rem;
+    }
+
+    .title_container p {
+        font-size: 1.5rem;
+    }
+
+    .title_container button {
+        width: 70%;
+        margin: 5%;
+    }
+
+    .trending-title {
+        margin-left: 7.5%;
+    }
+    .cards-container {
+        margin: 5%;
+    }
+
+    .card {
+        width: 45%;
+        padding: 2.5%;
+    }
+
+    .reader-time img {
+        display: none;
+    }
+
+    .post-aside {
+        flex-direction: column-reverse;
+    }
+
+    aside {
+        width: auto;
+        margin: 5% 10%;
+    }
+
+    .type-list a {
+        margin: 1%;
+        width: auto;
+    }
+
+    .posts {
+        width: auto;
+    }
+
+    .single-post {
+        width: auto;
+    }
+}
