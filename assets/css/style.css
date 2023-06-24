@@ -317,3 +317,78 @@ aside {
     animation: btn-switch 1s ease;
     animation-fill-mode: forwards;
 }
+
+/* MOBILE MEDIA QUERY */
+
+@media screen and (max-width: 575px) {
+
+    h2 {
+        font-size: 4rem;
+    }
+    header {
+        position: static;
+    }
+
+    .mobile-hidden-li {
+        display: none;
+    }
+
+    .hero {
+        position: static;
+    }
+
+    .title_container {
+        width: 100%;
+        padding: 10%;
+    }
+
+    .title_container p {
+        font-size: 1rem;
+    }
+
+    .title_container button {
+        width: 50%;
+    }
+    svg {
+        display: none;
+    }
+
+    .trending-title {
+        margin-left: 10%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        margin: 5% 10%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .reader-time img {
+        display: none;
+    }
+
+    .post-aside {
+        flex-direction: column-reverse;
+    }
+
+    aside {
+        width: auto;
+        margin: 5% 10%;
+    }
+
+    .type-list a {
+        margin: 1%;
+        width: auto;
+    }
+
+    .posts {
+        width: auto;
+    }
+
+    .single-post {
+        width: auto;
+    }
+}

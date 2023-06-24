@@ -15,9 +15,9 @@
       <nav>
         <img src="assets/imgs/svg/logo.svg" alt="Logo" />
         <ul>
-          <li><a href="#">Our story</a></li>
-          <li><a href="#">Membership</a></li>
-          <li><a href="#">Write</a></li>
+          <li class="mobile-hidden-li"><a href="#">Our story</a></li>
+          <li class="mobile-hidden-li"><a href="#">Membership</a></li>
+          <li class="mobile-hidden-li"><a href="#">Write</a></li>
           <li><a href="#">Sign In</a></li>
           <li><button>Get started</button></li>
         </ul>
@@ -9555,6 +9555,7 @@
       const header = document.querySelector("nav");
       const headerbtn = document.querySelector("nav button");
       document.addEventListener("scroll", function (e) {
+        console.log(e)
         console.log(window.scrollY);
         if (window.scrollY >= 400) {
           header.classList.add("nav-switch");
