@@ -9567,7 +9567,7 @@
       });
 
       const aside = document.querySelector("aside");
-      if (window.screen.width >= 1023) {
+      if (window.screen.width > 1023) {
         document.addEventListener("scroll", function (e) {
           if (window.scrollY >= 800) {
             aside.classList.add("aside-fixed");
